@@ -36,22 +36,10 @@ function Layout({ title, children }) {
 
       <div className="flex min-h-screen flex-col justify-between">
         <header>
-          <nav className="flex h-16 items-center px-4 justify-between shadow-md">
+          <nav className="flex h-12 items-center px-4 justify-between shadow-md">
             <Link href="/" className="text-lg font-bold">
               samazone
             </Link>
-
-            <form className="mx-auto justify-center md:flex">
-              <input
-                type="text"
-                className="border border-gray-300 rounded-lg p-1 m-0 text-sm focus:ring-0"
-                placeholder="Rechercher un produit"
-              />
-
-              <button className="rounded bg-amber-300 p-1 m-1 text-sm dark:text-black">
-                Recherche
-              </button>
-            </form>
             <div className="flex items-center z-10">
               <Link href="/cart" className="p-2 text-blue-500">
                 Cart

@@ -2,7 +2,16 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/placeorder": "pages/placeorder.js",
+  "/login": "pages/login.js",
+  "/order-history": "pages/order-history.js",
+  "/shipping": "pages/shipping.js",
+  "/api/orders/history": "pages/api/orders/history.js",
+  "/api/orders/[id]": "pages/api/orders/[id].js",
+  "/order/[id]": "pages/order/[id].js",
+  "/": "pages/index.js",
+  "/cart": "pages/cart.js",
   "/payment": "pages/payment.js",
-  "/": "pages/index.js"
+  "/api/orders": "pages/api/orders.js",
+  "/placeorder": "pages/placeorder.js",
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js"
 }
