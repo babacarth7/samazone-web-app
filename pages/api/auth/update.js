@@ -1,4 +1,4 @@
-import { getToken } from 'next-auth/jwt'
+import { getToken } from "next-auth/jwt";
 import bcryptjs from "bcryptjs";
 import User from "../../../models/User";
 import db from "../../../utils/db";
@@ -17,11 +17,11 @@ async function handler(req, res) {
   if (
     !name ||
     !email ||
-    !email.includes('@') ||
+    !email.includes("@") ||
     (password && password.trim().length < 5)
   ) {
     res.status(422).json({
-      message: "validation error"
+      message: "validation error",
     });
     return;
   }
@@ -36,7 +36,7 @@ async function handler(req, res) {
   }
 
   await toUpdateUser.save();
-  await db.disconnect()
+  await db.disconnect();
   res.send({
     message: "User updated",
   });

@@ -70,6 +70,16 @@ function Layout({ title, children }) {
                         Order History
                       </DropDownLink>
                     </Menu.Item>
+                    {session.user.isAdmin && (
+                      <Menu.Item>
+                        <DropDownLink
+                          className="dropdown-link"
+                          href="/admin/dashboard"
+                        >
+                          Admin Dashboard
+                        </DropDownLink>
+                      </Menu.Item>
+                    )}
 
                     <Menu.Item>
                       <a

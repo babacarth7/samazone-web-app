@@ -2,10 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/login": "pages/login.js",
-  "/api/auth/update": "pages/api/auth/update.js",
-  "/profile": "pages/profile.js",
+  "/admin/dashboard": "pages/admin/dashboard.js",
+  "/api/admin/summary": "pages/api/admin/summary.js",
   "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
-  "/unauthorized": "pages/unauthorized.js",
-  "/": "pages/index.js"
+  "/unauthorized": "pages/unauthorized.js"
 }
