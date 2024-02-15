@@ -1,3 +1,5 @@
+import Layout from "../components/layout";
+
 export default function Index() {
-    return <h1>Home Page</h1>
+  return <Layout title="Home Page"></Layout>;
 }
