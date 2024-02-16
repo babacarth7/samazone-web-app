@@ -18,6 +18,7 @@
     "axios": "^1.6.7",
     "bcryptjs": "^2.4.3",
     "chart.js": "^4.4.1",
+    "cloudinary": "^2.0.1",
     "install": "^0.13.0",
     "js-cookie": "^3.0.5",
     "mongoose": "^8.1.1",

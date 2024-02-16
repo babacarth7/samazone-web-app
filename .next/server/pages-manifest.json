@@ -1,16 +1,10 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/order/[id]": "pages/order/[id].js",
-  "/login": "pages/login.js",
-  "/placeorder": "pages/placeorder.js",
-  "/api/orders": "pages/api/orders.js",
-  "/cart": "pages/cart.js",
-  "/api/keys/paypal": "pages/api/keys/paypal.js",
-  "/api/orders/[id]/pay": "pages/api/orders/[id]/pay.js",
-  "/api/orders/[id]": "pages/api/orders/[id].js",
-  "/api/admin/orders/[id]/deliver": "pages/api/admin/orders/[id]/deliver.js",
-  "/payment": "pages/payment.js",
-  "/shipping": "pages/shipping.js"
+  "/_error": "pages/_error.js",
+  "/admin/products": "pages/admin/products.js",
+  "/api/admin/products": "pages/api/admin/products.js",
+  "/admin/product/[id]": "pages/admin/product/[id].js",
+  "/api/admin/products/[id]": "pages/api/admin/products/[id].js",
+  "/admin/orders": "pages/admin/orders.js"
 }
