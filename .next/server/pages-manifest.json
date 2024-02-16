@@ -1,12 +1,7 @@
 {
+  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/_app": "pages/_app.js",
-  "/api/admin/products/[id]": "pages/api/admin/products/[id].js",
-  "/admin/products": "pages/admin/products.js",
-  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
-  "/admin/product/[id]": "pages/admin/product/[id].js",
-  "/admin/dashboard": "pages/admin/dashboard.js",
-  "/api/admin/products": "pages/api/admin/products.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js"
 }
