@@ -58,7 +58,7 @@ function CartScreen() {
                       <Link href={`/product/${item.slug}`}>
                         <div className="flex items-center cursor-pointer">
                           <Image
-                            src={item.image}
+                           src={`/images/${item.image}`}
                             alt={item.name}
                             width={50}
                             height={50}

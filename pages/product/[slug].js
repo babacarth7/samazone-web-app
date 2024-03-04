@@ -48,7 +48,7 @@ function ProductScreen(props) {
       <div className="grid md:grid-cols-4 md:gap-3">
         <div className="md:col-span-2">
           <Image
-            src={product.image}
+            src={`/images/${product.image}`}
             alt={product.name}
             width={640}
             height={640}

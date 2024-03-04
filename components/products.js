@@ -27,7 +27,7 @@ function ProductItem({ product }) {
     <div className="card">
       <Link href={`/product/${product.slug}`}>
         <img
-          src={product.image}
+           src={`/images/${product.image}`}
           alt={product.name}
           className="rounded shadow object-cover h-64 w-full"
         />

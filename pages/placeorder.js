@@ -111,7 +111,7 @@ export default function PlaceOrderScreen() {
                           className="flex items-center"
                         >
                           <Image
-                            src={item.image}
+                            src={`/images/${item.image}`}
                             alt={item.name}
                             width={50}
                             height={50}
